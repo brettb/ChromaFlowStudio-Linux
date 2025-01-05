@@ -111,7 +111,8 @@ How do we get started? <br>
 <br>
 <br>
 
-**Install Instructions: (easy method)**
+
+**Install Instructions: (EASY METHOD)**
 
 1. Download the **ChromaFlowStudio#.#.#.####.zip** _(latest version)_ <Br>
 and extract to any folder you like, for example **C:\Program Files\ChromaDB\ChromaFlowStudio** <br>
@@ -136,7 +137,9 @@ Let it install everything in the requirements.txt <br>
 <br>
 <br>
 
-**Install Instructions: (manual method)**
+**OR**
+
+**Install Instructions: (MANUAL METHOD)**
 
 1. Download the **ChromaFlowStudio#.#.#.####.zip** _(latest version)_ <Br>
 and extract to any folder you like, for example **C:\Program Files\ChromaDB\ChromaFlowStudio** <br>
