@@ -192,6 +192,7 @@ venv\Scripts\python.exe" app.py
 <br>
 <Br>
 <br>
+
 **Getting Started with Chroma Flow Studio**<br>
 
 **Creating Collections:** <Br>
