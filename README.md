@@ -117,8 +117,10 @@ and extract to any folder you like, for example **C:\Program Files\ChromaDB\Chro
 <Br>
 <br>
 
-
-2.
-Edit the **VENV_Create.bat** <br>
+2. Edit the **VENV_Create.bat** <br>
 Amend the pythonPath to YOUR python 3.10 folder _(where python.exe is located)_ <br>
+<Br>
+<br>
+
+
 
