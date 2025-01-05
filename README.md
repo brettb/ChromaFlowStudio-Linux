@@ -17,9 +17,8 @@ Intended for Windows OS
 But could be adapted for linux by creating the equivilant .sh scripts instead of .bat files
 ~~~~~~~~~~~~~
 <br>
-<br>
 
-Whether you're a total beginner or veteran,
+Whether you're a total beginner or veteran,<Br>
 The aim is to lower the barrier to entry, and make learning, using, or developing with ChromaDB fast, easy, <br>
 and,<br>
 <br>
