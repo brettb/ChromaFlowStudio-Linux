@@ -121,5 +121,14 @@ and extract to any folder you like, for example **C:\Program Files\ChromaDB\Chro
 Amend the pythonPath to YOUR python 3.10 folder _(where python.exe is located)_ <br>
 <Br>
 
+3. Run the **VENV_Create.bat** to create the Virtual Environment<br>
+_(it'll create a new 'venv' folder for you)_ <br>
+<Br>
 
+4. Run the **Install.bat** <br>
+Let it install everything in the requirements.txt <br>
+<Br>
+
+5. Use the **Run.bat** to launch Chroma Flow Studio!<br>
+<Br>
 
