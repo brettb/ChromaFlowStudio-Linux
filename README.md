@@ -79,7 +79,9 @@ And has been tested and is compatible with ChromaDB 0.6.1 too as of writing this
 (if later versions of chromadb introduce a breaking change, try downgrading)
 ~~~~~~~~~~~~~~~
 
-So enough talk..
+So...
+
+Enough talk
 
 How do we get started? 
 
