@@ -11,6 +11,9 @@ Introducing Chroma Flow Studio.
 
 The swiss-army knife to ChromaDB - with every management task at your fingertips! 
 
+~~~~~~~~~~~~~
+**Intended for Windows OS - But could be adapted for linux by creating the equivilant .sh scripts instead of .bat files**
+~~~~~~~~~~~~~
 
 Whether you're a total beginner or veteran,
 The aim is to lower the barrier to entry, and make learning, using, or developing with ChromaDB fast, easy, and, dare I say, even a little fun?
@@ -98,4 +101,8 @@ How do we get started?
 - Check the requirements.txt for package version info
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+**Install Instructions:**
+
+1. Download the "ChromaFlowStudio#.#.#.####.zip" (latest version) to any folder you like, but 
 
