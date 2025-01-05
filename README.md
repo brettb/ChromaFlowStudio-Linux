@@ -101,9 +101,9 @@ How do we get started?
 - Set environment variable CHROMA_SERVER_CORS_ALLOW_ORIGINS=["*"]
 - Check the requirements.txt for package version info
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-.
-.
-.
+<Br>
+<br>
+<br>
 
 **Install Instructions:**
 
