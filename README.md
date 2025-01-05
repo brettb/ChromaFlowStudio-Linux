@@ -8,6 +8,7 @@ Python GUI Client For ChromaDB - Full Management and Visualisations
 ![image](https://github.com/user-attachments/assets/0cd4a43e-5079-4232-8c3a-38271e553699)
 
 Introducing Chroma Flow Studio.
+<br>
 
 The swiss-army knife to ChromaDB - with every management task at your fingertips! 
 
@@ -15,15 +16,20 @@ The swiss-army knife to ChromaDB - with every management task at your fingertips
 Intended for Windows OS
 But could be adapted for linux by creating the equivilant .sh scripts instead of .bat files
 ~~~~~~~~~~~~~
+<br>
+<br>
 
 Whether you're a total beginner or veteran,
-The aim is to lower the barrier to entry, and make learning, using, or developing with ChromaDB fast, easy, and, dare I say, even a little fun?
+The aim is to lower the barrier to entry, and make learning, using, or developing with ChromaDB fast, easy, <br>
+and,<br>
+<br>
+dare I say, even a little fun?<Br>
+<br>
+<br>
 
 
-
-With over 15,000 Lines of code, this is one mighty App!
-
-Here's a peek at what Chroma Flow Studio can do for you:
+With over 15,000 Lines of code, this is one mighty App! <bR>
+Here's a peek at what Chroma Flow Studio can do for you: <br>
 
 - **Dashboard Overview:**
   Get a clear, concise snapshot of your entire ChromaDB setup right from the dashboard.
@@ -83,12 +89,15 @@ ChromaFlowStudio supports ChromaDB Versions 0.5.20+
 including latest version (ChromaDB 0.6.1 as of writing this)
 (if later versions of chromadb introduce a breaking change, try downgrading)
 ~~~~~~~~~~~~~~~
+<Br>
+<Br>
+<br>
 
-So...
-
-Enough talk
-
-How do we get started? 
+So...<bR>
+Enough talk <bR>
+<Br>
+How do we get started? <br>
+<br>
 
 **Pre-Requisites:**
 ~~~~~~~~~~~~~~~~~~~~~~~~~
