@@ -115,12 +115,10 @@ How do we get started? <br>
 1. Download the **ChromaFlowStudio#.#.#.####.zip** _(latest version)_ <Br>
 and extract to any folder you like, for example **C:\Program Files\ChromaDB\ChromaFlowStudio** <br>
 <Br>
-<br>
 
 2. Edit the **VENV_Create.bat** <br>
 Amend the pythonPath to YOUR python 3.10 folder _(where python.exe is located)_ <br>
 <Br>
-<br>
 
 
 
