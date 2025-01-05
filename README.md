@@ -11,11 +11,6 @@ Introducing Chroma Flow Studio.
 
 The swiss-army knife to ChromaDB - with every management task at your fingertips! 
 
-        __                                  ______                      __            ___     
-  _____/ /_  _________  ____ ___  ____ _   / __/ /___ _      __   _____/ /___  ______/ (_)___ 
- / ___/ __ \/ ___/ __ \/ __ `__ \/ __ `/  / /_/ / __ \ | /| / /  / ___/ __/ / / / __  / / __ \\
-/ /__/ / / / /  / /_/ / / / / / / /_/ /  / __/ / /_/ / |/ |/ /  (__  ) /_/ /_/ / /_/ / / /_/ /
-\___/_/ /_/_/   \____/_/ /_/ /_/\__,_/  /_/ /_/\____/|__/|__/  /____/\__/\__,_/\__,_/_/\____/ 
 
 Whether you're a total beginner or veteran,
 The aim is to lower the barrier to entry, and make learning, using, or developing with ChromaDB fast, easy, and, dare I say, even a little fun?
