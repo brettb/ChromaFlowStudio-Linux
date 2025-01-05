@@ -74,15 +74,15 @@ Chroma Flow Studio brings everything you need in one place, wrapped in a simple 
 with a range of tools built-in, detailed overviews, and embedded knowledge, everything is just a click away.
 
 ~~~~~~~~~~~~~~~
-This application supports ChromaDB Versions 0.5.20+
-Has been tested and works on ChromaDB 0.6.1 as of writing this 
+ChromaFlowStudio supports ChromaDB Versions 0.5.20+
+And has been tested and is compatible with ChromaDB 0.6.1 too as of writing this 
 (if later versions of chromadb introduce a breaking change, try downgrading)
 ~~~~~~~~~~~~~~~
 
-So..
+So enough talk..
 How do we get started? 
 
-**Minimum Reqirements:**
+**Pre-Requisites Reqirements:**
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 - ~300MB for the basic app, but ~1.7GB in Drive Space for all other libraries and dependancies (mainly torch)
 - Python 3.10 (may also work in 3.11, but hasnt been tested)
@@ -93,3 +93,5 @@ How do we get started?
 - Set environment variable CHROMA_SERVER_CORS_ALLOW_ORIGINS=["*"]
 - Check the requirements.txt for package version info
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
