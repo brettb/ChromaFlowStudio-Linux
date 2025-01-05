@@ -1,5 +1,6 @@
 # ChromaFlowStudio
-Python GUI Client For ChromaDB - Full Management and Visualisations
+**Python GUI Client For ChromaDB**<br>
+_Full Management and Visualisations_
 
 ![image](https://github.com/user-attachments/assets/61e12d9e-7d91-41e3-bb93-94158b2faa18)
 
