@@ -229,7 +229,9 @@ On the view documents page:<br>
 - choose how many results to return,
 and quickly see your document IDs, contents, metadata, and embeddings.<br>
 <br>
+
 ![image](https://github.com/user-attachments/assets/38a3ef9e-d2bd-4eaf-9da0-161d7e7b2b7b)
+
 <br>
 <br>
 
