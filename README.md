@@ -101,7 +101,9 @@ How do we get started?
 - Set environment variable CHROMA_SERVER_CORS_ALLOW_ORIGINS=["*"]
 - Check the requirements.txt for package version info
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-
+.
+.
+.
 
 **Install Instructions:**
 
@@ -109,4 +111,12 @@ How do we get started?
 Download the **ChromaFlowStudio#.#.#.####.zip** _(latest version)_ 
 
 and extract to any folder you like, for example **C:\Program Files\ChromaDB\ChromaFlowStudio**
+.
+.
+
+
+2.
+Edit the **VENV_Create.bat**
+
+Amend the pythonPath to YOUR python 3.10 folder _(where python.exe is located) _
 
