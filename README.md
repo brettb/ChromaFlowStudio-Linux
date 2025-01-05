@@ -12,7 +12,8 @@ Introducing Chroma Flow Studio.
 The swiss-army knife to ChromaDB - with every management task at your fingertips! 
 
 ~~~~~~~~~~~~~
-**Intended for Windows OS - But could be adapted for linux by creating the equivilant .sh scripts instead of .bat files**
+Intended for Windows OS
+But could be adapted for linux by creating the equivilant .sh scripts instead of .bat files
 ~~~~~~~~~~~~~
 
 Whether you're a total beginner or veteran,
