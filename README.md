@@ -11,7 +11,11 @@ Introducing Chroma Flow Studio.
 
 The swiss-army knife to ChromaDB - with every management task at your fingertips! 
 
-
+        __                                  ______                      __            ___     
+  _____/ /_  _________  ____ ___  ____ _   / __/ /___ _      __   _____/ /___  ______/ (_)___ 
+ / ___/ __ \/ ___/ __ \/ __ `__ \/ __ `/  / /_/ / __ \ | /| / /  / ___/ __/ / / / __  / / __ \\
+/ /__/ / / / /  / /_/ / / / / / / /_/ /  / __/ / /_/ / |/ |/ /  (__  ) /_/ /_/ / /_/ / / /_/ /
+\___/_/ /_/_/   \____/_/ /_/ /_/\__,_/  /_/ /_/\____/|__/|__/  /____/\__/\__,_/\__,_/_/\____/ 
 
 Whether you're a total beginner or veteran,
 The aim is to lower the barrier to entry, and make learning, using, or developing with ChromaDB fast, easy, and, dare I say, even a little fun?
@@ -73,3 +77,24 @@ Here's a peek at what Chroma Flow Studio can do for you:
 
 Chroma Flow Studio brings everything you need in one place, wrapped in a simple UI,
 with a range of tools built-in, detailed overviews, and embedded knowledge, everything is just a click away.
+
+~~~~~~~~~~~~~~~
+This application supports ChromaDB Versions 0.5.20+
+Has been tested and works on ChromaDB 0.6.1 as of writing this 
+(if later versions of chromadb introduce a breaking change, try downgrading)
+~~~~~~~~~~~~~~~
+
+So..
+How do we get started? 
+
+**Minimum Reqirements:**
+~~~~~~~~~~~~~~~~~~~~~~~~~
+- ~300MB for the basic app, but ~1.7GB in Drive Space for all other libraries and dependancies (mainly torch)
+- Python 3.10 (may also work in 3.11, but hasnt been tested)
+- Pip 24.3.1
+- VENV installed (optional, but HIGHLY, and STRONGLY recommended)
+- ChromaDB 0.5.20+ to support hnsw config specified in metadata - tested and works on v0.6.1 too (latest as of writing this)
+- Chroma-hnswlib==0.7.6+
+- Set environment variable CHROMA_SERVER_CORS_ALLOW_ORIGINS=["*"]
+- Check the requirements.txt for package version info
+~~~~~~~~~~~~~~~~~~~~~~~~~
