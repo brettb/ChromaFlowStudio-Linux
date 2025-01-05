@@ -89,11 +89,9 @@ including latest version (ChromaDB 0.6.1 as of writing this)
 (if later versions of chromadb introduce a breaking change, try downgrading)
 ~~~~~~~~~~~~~~~
 <Br>
-<Br>
 
 So...<bR>
 Enough talk <bR>
-<Br>
 How do we get started? <br>
 <br>
 
