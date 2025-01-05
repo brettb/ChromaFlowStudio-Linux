@@ -13,11 +13,13 @@ The swiss-army knife to ChromaDB - with every management task at your fingertips
 
 
 Whether you're a total beginner or veteran,
+
 The aim is to lower the barrier to entry, and make learning, using, or developing with ChromaDB fast, easy, and, dare I say, even a little fun?
 
 
 
 With over 15,000 Lines of code, this is one mighty App!
+
 Here's a peek at what Chroma Flow Studio can do for you:
 
 - **Dashboard Overview:**
