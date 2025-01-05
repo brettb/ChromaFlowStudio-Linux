@@ -90,7 +90,6 @@ including latest version (ChromaDB 0.6.1 as of writing this)
 ~~~~~~~~~~~~~~~
 <Br>
 <Br>
-<br>
 
 So...<bR>
 Enough talk <bR>
