@@ -30,6 +30,7 @@ dare I say, even a little fun?<Br>
 A **Pure Python** ChromaDB Client,<br>
 Using Flask HTML and javascript for the Front End UI.<br>
 Persists ChromaDB Data to disk by default<br>
+<Br>
 
 
 With over 15,000 Lines of code, this is one mighty App! <bR>
