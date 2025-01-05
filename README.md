@@ -111,7 +111,7 @@ How do we get started? <br>
 <br>
 <br>
 
-**Install Instructions:**
+**Install Instructions: (easy method)**
 
 1. Download the **ChromaFlowStudio#.#.#.####.zip** _(latest version)_ <Br>
 and extract to any folder you like, for example **C:\Program Files\ChromaDB\ChromaFlowStudio** <br>
@@ -132,3 +132,59 @@ Let it install everything in the requirements.txt <br>
 5. Use the **Run.bat** to launch Chroma Flow Studio!<br>
 <Br>
 
+<br>
+<br>
+<br>
+
+**Install Instructions: (manual method)**
+
+1. Download the **ChromaFlowStudio#.#.#.####.zip** _(latest version)_ <Br>
+and extract to any folder you like, for example **C:\Program Files\ChromaDB\ChromaFlowStudio** <br>
+<Br>
+
+
+2. Open a new command prompt window (cmd.exe)<Br>
+change to the directory where you decided to unzip ChromaFlowStudio:
+~~~~~~~~~~~~~~~~~~~~~
+cd "C:\Path\to\where\you\decided\to\install"
+~~~~~~~~~~~~~~~~~~~~~
+For example:
+~~~~~~~~~~~~~~~~~~~~~
+cd "C:\Program File\ChromaDB\ChromaFlowStudio"
+~~~~~~~~~~~~~~~~~~~~~
+<Br>
+
+
+3. assuming you already have python 3.10 installed,<br>
+enter this command and press enter _(this creates the virtual environment)_:
+~~~~~~~~~~~~~~~~~~~~~
+python -m venv venv
+~~~~~~~~~~~~~~~~~~~~~
+<Br>
+
+
+4. activate the virtual environment with this command: <Br>
+~~~~~~~~~~~~~~~~~~~~~
+venv\Scripts\activate.bat
+~~~~~~~~~~~~~~~~~~~~~
+<Br>
+
+
+5. Upgrade pip first<br>
+~~~~~~~~~~~~~~~~~~~~~
+venv\Scripts\python.exe -m pip install --upgrade pip
+~~~~~~~~~~~~~~~~~~~~~
+<Br>
+
+
+6. Install the requirements.txt<br>
+~~~~~~~~~~~~~~~~~~~~~
+venv\Scripts\python.exe -m pip install -r requirements.txt
+~~~~~~~~~~~~~~~~~~~~~
+<Br>
+
+7. Launch Chroma Flow Studio:<br>
+~~~~~~~~~~~~~~~~~~~~~
+venv\Scripts\python.exe" app.py
+~~~~~~~~~~~~~~~~~~~~~
+<Br>
