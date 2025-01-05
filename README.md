@@ -33,7 +33,7 @@ Here's a peek at what Chroma Flow Studio can do for you:
 - **Bulk Document Imports and Updates:**
   Need to add or update a lot of documents at once? No problem. Import documents in bulk with a simple JSON file, or update them in bulk too.
   
--** Document Management:**
+- ** Document Management:**
   Whether you need to update a single document, copy one, or delete them (individually, in groups, or all at once), Chroma Flow Studio makes it easy to manage your documents at lightning speed.
   
 - **Document Overview:**
