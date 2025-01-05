@@ -300,12 +300,12 @@ Just copy, paste, run, and done!<br>
 on the Settings page, you can change the port that Flask runs on if it conflicts with anything else you're running<br>
 You can also configure the path the the ChromaDB file - if one doesnt exist, it creates a blank one automatically, but can be used to point to existing chroma.sqlite3 files.<br>
 Also, if you're using a proxy, it can be set - leave field blank if proxy is not used.<br>
-<br
+<br>
 ![image](https://github.com/user-attachments/assets/05125d3e-360c-423c-b0b1-1896abf3f574)
 <br>
 <br>
 **Configure a prefix for collection names**<br>
-abaility to set a prefix used in the Auto-name generation during the collection creation process.<br>
+Ability to set a prefix used in the Auto-name generation during the collection creation process.<br>
 Theres also language setting, that if configured, and if you specify a "languague":"" json metadata key, it automatically uses this value<br>
 <br>
 ![image](https://github.com/user-attachments/assets/f32d6872-1db4-490e-8435-f30495d43b48)
