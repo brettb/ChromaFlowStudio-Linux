@@ -85,7 +85,7 @@ Enough talk
 
 How do we get started? 
 
-**Pre-Requisites Reqirements:**
+**Pre-Requisites:**
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 - ~300MB for the basic app, but ~1.7GB in Drive Space for all other libraries and dependancies (mainly torch)
 - Python 3.10 (may also work in 3.11, but hasnt been tested)
