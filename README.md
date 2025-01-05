@@ -80,6 +80,7 @@ And has been tested and is compatible with ChromaDB 0.6.1 too as of writing this
 ~~~~~~~~~~~~~~~
 
 So enough talk..
+
 How do we get started? 
 
 **Pre-Requisites Reqirements:**
