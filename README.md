@@ -13,7 +13,6 @@ The swiss-army knife to ChromaDB - with every management task at your fingertips
 
 
 Whether you're a total beginner or veteran,
-
 The aim is to lower the barrier to entry, and make learning, using, or developing with ChromaDB fast, easy, and, dare I say, even a little fun?
 
 
