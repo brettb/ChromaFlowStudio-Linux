@@ -272,3 +272,19 @@ Simple. <br>
 <br>
 <Br>
 
+
+
+**Embedded Python Snippets** <Br>
+At the bottom of the Collections / Documents / Update / Search Pages<Br>
+are Python code snippets showing how to perform those actions programatically.<Br>
+Just copy, paste, run, and done!<br>
+<br>
+![image](https://github.com/user-attachments/assets/0a3255ac-e58c-42d2-bfeb-a554eaae7d94)
+<br>
+![image](https://github.com/user-attachments/assets/5f918b21-d1fd-400d-b1d3-6d8c7cc61583)
+<bR>
+![image](https://github.com/user-attachments/assets/d85927ad-f38f-41ea-88a2-e57a46ed1ace)
+<br>
+![image](https://github.com/user-attachments/assets/35549cd5-0c4d-4f44-bb7c-deb166b59f71)
+<br>
+<br>
