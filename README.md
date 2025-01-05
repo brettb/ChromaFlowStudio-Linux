@@ -328,3 +328,80 @@ upload a josn file to import 1000s x documents at once rapidly!<br>
 ![image](https://github.com/user-attachments/assets/1fbdfcd9-8570-40dd-81da-d2f109f435b2)
 <br>
 <br>
+<br>
+<br>
+<br>
+
+**Links to Other Chroma DB GUI Clients**<br>
+heres a list of other GitHub projects for Chroma GUI clients:<br>
+<br>
+
+**ChromaDash** <Br>
+https://github.com/coffeecodeconverter/ChromaDash <Br>
+This is a HTTP Client UI, only works if you also have a HTTP ChromaDB Server running (default listens on 127.0.0.1:8000). <br>
+Ignore, if you're interested in python clients. <br>
+<br>
+
+**Chroma UI** <br>
+https://github.com/thakkaryash94/chroma-ui <br>
+https://chroma-ui.vercel.app/ <br>
+This is a HTTP Client UI, only works if you also have a HTTP ChromaDB Server running (default listens on 127.0.0.1:8000). <br>
+Ignore, if you're interested in python clients. <br>
+<br>
+
+**Chroma Peek** <Br>
+https://github.com/Pawandeep-prog/chroma-peek <br>
+A Python client for quickly viewing documents in your collections. Can run basic queries for similarity search <br>
+<br>
+
+**Chromagraphic** <br>
+https://github.com/msteele3/chromagraphic <BR>
+A Python client for quickly viewing documents in your collections. Can add documents, but not search them. <Br>
+<br>
+
+**Vector Admin** <Br>
+https://github.com/Mintplex-Labs/vector-admin <br>
+This is a universal management tool that supports Chroma and pinecone databases, with the aim to support more in future. <bR>
+Good UI that aims to simplify managing multiple vector databases through a unified interface. <br>
+<br>
+
+**Chroma DB Viewer** <br>
+https://github.com/ill-yes/chromadb-viewer <br>
+This application is a simple ChromaDB viewer developed with Streamlit and Python. It allows you to visualize and manipulate collections from ChromaDB. You can select collections, add, update, and delete items. <br>
+<br>
+
+**Chroma Viewer** <br>
+https://github.com/avantrio/chroma-viewer <br>
+A quick viewer for local Chrome DB <br>
+<br>
+
+**Chroma View Master** <br>
+https://github.com/clearsitedesigns/chromaViewMaster <br>
+ChromaView Master is a Streamlit-based tool designed to help you understand, visualize, and manipulate Chroma database collections. <br>
+<br>
+
+**ChromaDB Web UI** <br>
+https://github.com/treeleaves30760/chromadb-WebUI <br>
+This is a NodeJS Client with a Web UI Front End for viewing Chroma Collections. <br>
+<br>
+
+**ChromaDB UI** <br>
+https://github.com/BlackyDrum/chromadb-ui <br>
+This is a NodeJS Client with a Web UI Front End for viewing Chroma Collections. <br>
+<br>
+
+**ChromaDB UI** <br>
+https://github.com/seancheong/chroma-ui <br>
+This is a NodeJS Client with a Web UI Front End for viewing Chroma Collections. <br>
+<br>
+
+**ChromaDB UI** <br>
+https://github.com/keval9098/chromadb-ui <br>
+This is a Python Client with a Web UI Front End for viewing Chroma Collections. <br>
+<br>
+
+**ChromaDB RAG** <Br>
+https://github.com/leporejoseph/streamlit_Rag <br>
+RAG System using ChromaDB to drive it <br>
+<br>
+<br>
