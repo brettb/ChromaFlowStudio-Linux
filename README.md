@@ -105,7 +105,8 @@ How do we get started?
 
 **Install Instructions:**
 
-1. Download the **ChromaFlowStudio#.#.#.####.zip** _(latest version)_ 
+1.
+Download the **ChromaFlowStudio#.#.#.####.zip** _(latest version)_ 
 
 and extract to any folder you like, for example **C:\Program Files\ChromaDB\ChromaFlowStudio**
 
