@@ -1,3 +1,8 @@
+This is a fork of Chromaflows that will now function for Linux and Mac users. The original repo can be found at https://github.com/coffeecodeconverter/ChromaFlowStudio, please go there if you are looking for Windows supoport. <br>
+
+Big thanks to coffeecodeconverter for Chroma Flow Studio , I hope to make some use of it now that it's running on my Ubuntu server. <br>
+
+
 # ChromaFlowStudio
 **Python GUI Client For ChromaDB**<br>
 _Full Management and Visualisations_
@@ -14,19 +19,108 @@ Introducing Chroma Flow Studio.
 The swiss-army knife to ChromaDB - with every management task at your fingertips! <br>
 Promising to be **the most comprehensive ChromaDB GUI client available!**<br>
 
-~~~~~~~~~~~~~
-Intended for Windows OS
-But could be adapted for linux by creating the equivilant .sh scripts instead of .bat files
-~~~~~~~~~~~~~
-<br>
+## Platform Support
 
-Whether you're a total beginner or veteran,<Br>
-The aim is to lower the barrier to entry, and make learning, using, or developing with ChromaDB fast, easy, <br>
-and,<br>
-<br>
-dare I say, even a little fun?<Br>
-<br>
-<br>
+Chroma Flow Studio supports multiple platforms:
+
+- **Linux**: Fully supported with `.sh` scripts
+- **macOS**: Fully supported with `.sh` scripts
+
+## Quick Start (Linux/macOS)
+
+2. **Make the setup script executable and run it**:
+   ```bash
+   chmod +x create_venv.sh
+   ./create_venv.sh
+   ```
+   This will:
+   - Create a Python virtual environment
+   - Install all required dependencies
+   - Set up the necessary directories in your home folder (`~/.chromaflow/`)
+
+
+3. **Run the application**:
+   ```bash
+   ./run.sh
+   ```
+   The application will start and be available at: http://127.0.0.1:5000
+
+## Remote Access
+
+By default, Chroma Flow Studio is configured to allow remote access from other devices on your network. Here's how to access it:
+
+1. **Find your server's IP address**:
+   ```bash
+   # On Linux/macOS
+   hostname -I
+   
+
+2. **Access from another device**:
+   - Open a web browser on any device connected to the same network
+   - Navigate to: `http://<your-server-ip>:5000`
+   - Replace `<your-server-ip>` with your server's IP address from step 1
+
+3. **Firewall Configuration** (if needed):
+   ```bash
+   # For Linux with UFW
+   sudo ufw allow 5000/tcp
+   
+   # For macOS
+   sudo pfctl -E
+   echo "pass in proto tcp from any to any port 5000" | sudo pfctl -f - 
+   ```
+
+4. **Security Note**:
+   - The application is currently accessible to anyone on your network
+   - For production use, consider:
+     - Setting up a reverse proxy (like Nginx)
+     - Enabling HTTPS
+     - Implementing authentication
+
+## Detailed Installation (Linux/macOS)
+
+### Prerequisites
+- Python 3.10 (recommended) or 3.11
+- pip (Python package manager)
+- git (for cloning the repository)
+
+
+1. **Start the application**:
+   ```bash
+   ./run.sh
+   ```
+
+2. **Access the web interface**:
+   Open your web browser and navigate to: http://127.0.0.1:5000
+
+3. **Stopping the application**:
+   Press `Ctrl+C` in the terminal where the application is running, or use:
+   ```bash
+   pkill -f "python app.py"
+   ```
+
+## File Locations
+
+- **Configuration**: `appsettings.json` in the application directory
+- **Database**: `~/.chromaflow/data/`
+- **Models**: `~/.chromaflow/models/`
+- **Logs**: `app.log` in the application directory
+
+## Troubleshooting
+
+- **Port already in use**: If port 5000 is in use, you can change it in `appsettings.json` by modifying the `flask_server_endpoint`
+- **Model download issues**: Ensure you have a stable internet connection for the initial model download
+- **Permission issues**: If you encounter permission errors, ensure the `~/.chromaflow` directory is writable by your user
+
+## Development
+
+To contribute to Chroma Flow Studio, follow these steps:
+
+1. Fork the repository
+2. Create a new branch for your feature
+3. Make your changes
+4. Submit a pull request
+
 
 A **Pure Python** ChromaDB Client,<br>
 Using Flask HTML and javascript for the Front End UI.<br>
@@ -97,10 +191,7 @@ including latest version (ChromaDB 0.6.1 as of writing this)
 ~~~~~~~~~~~~~~~
 <Br>
 
-So...<bR>
-Enough talk <bR>
-How do we get started? <br>
-<br>
+
 
 **Pre-Requisites:**
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -120,87 +211,10 @@ How do we get started? <br>
 
 **Install Instructions: (EASY METHOD)**
 
-1. Download the **ChromaFlowStudio#.#.#.####.zip** _(latest version)_ <Br>
-and extract to any folder you like, for example **C:\Program Files\ChromaDB\ChromaFlowStudio** <br>
-<Br>
+EASY METHOD:
+- Run the create_venv.sh script to configure the virtual environment and follow the instructions. <Br>
+- When finished, run "./run.sh" to launch Chroma Flow Studio <Br>
 
-2. Edit the **VENV_Create.bat** <br>
-Amend the pythonPath to YOUR python 3.10 folder _(where python.exe is located)_ <br>
-<Br>
-
-3. Run the **VENV_Create.bat** to create the Virtual Environment<br>
-_(it'll create a new 'venv' folder for you)_ <br>
-<Br>
-
-4. Run the **Install.bat** <br>
-Let it install everything in the requirements.txt <br>
-<Br>
-
-5. Use the **Run.bat** to launch Chroma Flow Studio!<br>
-<Br>
-
-<br>
-<br>
-<br>
-
-**OR**
-
-**Install Instructions: (MANUAL METHOD)**
-
-1. Download the **ChromaFlowStudio#.#.#.####.zip** _(latest version)_ <Br>
-and extract to any folder you like, for example **C:\Program Files\ChromaDB\ChromaFlowStudio** <br>
-<Br>
-
-
-2. Open a new command prompt window (cmd.exe)<Br>
-change to the directory where you decided to unzip ChromaFlowStudio:
-~~~~~~~~~~~~~~~~~~~~~
-cd "C:\Path\to\where\you\decided\to\install"
-~~~~~~~~~~~~~~~~~~~~~
-For example:
-~~~~~~~~~~~~~~~~~~~~~
-cd "C:\Program File\ChromaDB\ChromaFlowStudio"
-~~~~~~~~~~~~~~~~~~~~~
-<Br>
-
-
-3. assuming you already have python 3.10 installed,<br>
-enter this command and press enter _(this creates the virtual environment)_:
-~~~~~~~~~~~~~~~~~~~~~
-python -m venv venv
-~~~~~~~~~~~~~~~~~~~~~
-<Br>
-
-
-4. activate the virtual environment with this command: <Br>
-~~~~~~~~~~~~~~~~~~~~~
-venv\Scripts\activate.bat
-~~~~~~~~~~~~~~~~~~~~~
-<Br>
-
-
-5. Upgrade pip first<br>
-~~~~~~~~~~~~~~~~~~~~~
-venv\Scripts\python.exe -m pip install --upgrade pip
-~~~~~~~~~~~~~~~~~~~~~
-<Br>
-
-
-6. Install the requirements.txt<br>
-~~~~~~~~~~~~~~~~~~~~~
-venv\Scripts\python.exe -m pip install -r requirements.txt
-~~~~~~~~~~~~~~~~~~~~~
-<Br>
-
-7. Launch Chroma Flow Studio:<br>
-~~~~~~~~~~~~~~~~~~~~~
-venv\Scripts\python.exe" app.py
-~~~~~~~~~~~~~~~~~~~~~
-<Br>
-
-<br>
-<Br>
-<br>
 
 **Getting Started with Chroma Flow Studio**<br>
 
